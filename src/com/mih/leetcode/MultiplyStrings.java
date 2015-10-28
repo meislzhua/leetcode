@@ -17,10 +17,6 @@ public class MultiplyStrings {
 		int s1_len = num1.length();
 		int s2_len = num2.length();
 		char[] list = new char[s1_len+s2_len];
-		//初始化
-		for(int size = list.length-1;size >= 0 ; size--){
-			list[size] = 0;
-		}
 		//直接运算
 		for(int i = s1_len-1,t = 0 ; i >= 0; i--,t++){
 			char tmp = (char) (num1.charAt(i)-48);
