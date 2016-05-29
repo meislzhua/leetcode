@@ -1,5 +1,7 @@
 package com.mih.leetcode;
 
+import com.mih.leetcode.tool.ListNode;
+
 /**
  * Created by meislzhua on 15/11/4.
  */
