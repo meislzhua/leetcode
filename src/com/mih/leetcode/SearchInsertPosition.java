@@ -11,7 +11,7 @@ public class SearchInsertPosition {
             if (nums[tmp] > target) {
                 right = tmp;
             } else if (nums[tmp] < target) {
-                left = tmp;
+                left = tmp + 1;
             } else {
                 return tmp;
             }
